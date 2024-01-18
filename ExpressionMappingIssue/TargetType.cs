@@ -4,7 +4,7 @@
     {
         public virtual int Id { get; set; }
 
-        public virtual TargetChildType SubType { get; set; }
+        public virtual TargetChildType Child { get; set; }
 
         public virtual ICollection<TargetListItemType> ItemList { get; set; } = new List<TargetListItemType>();
     }
